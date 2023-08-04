@@ -2,11 +2,6 @@ import React, {useState, useEffect} from 'react';
 import './Todo.css';
 
     
-  
-    
-    // File: Todo.js
-    
-    // [...]
     
     function Task({ task, index, completeTask, removeTask }) {
         return (
@@ -21,19 +16,7 @@ import './Todo.css';
         );
     }
     
-    // [...]
-
-    
    
-        // File: Todo.js
-    
-       // File: Todo.js
-    
-    // [...]
-    
-      // File: Todo.js
-    
-    // [...]
     
     function Todo() {
         const [tasksRemaining, setTasksRemaining] = useState(0);
@@ -75,6 +58,7 @@ import './Todo.css';
     
         return (
             <div className="todo-container">
+                
                 <div className="header">Pending tasks ({tasksRemaining})</div>
                 <div className="tasks">
                     {tasks.map((task, index) => (
